@@ -1,14 +1,42 @@
-# Welcome to your CDK TypeScript project
 
-This is a blank project for CDK development with TypeScript.
+![Logo](https://sourplums-website-live.vercel.app/imgs/logo.png)
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-## Useful commands
+# SourPlums Discord Bot
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+SourPlums is a command driven Discord bot written in Python. I makes use of a Docker Container for depolyment onto a AWS Lambda function for a 24/7 serveless bot.
+
+Replace with your own Discord app and bot keys and tokens before building.
+
+# Setup
+
+It is recommened to setup the project in a virtual env
+```
+pip install virtualenv
+python3.8 -m venv env
+```
+Then install the dependencies in requirements.txt
+```
+pip install -r commands/requirements.txt
+```
+Make sure to r egister the commands
+```
+pip install -r commands/requirements.txt
+```
+# Depolyment
+
+Bootstrap the AWS CDK 
+```
+cdk bootstrap
+```
+Then once everything checks out you can deploy. Make sure your [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) is up-to-date and installed
+```
+cdk deploy
+```
+
+
+
+## 🔗 Links
+You can invite the bot here through its [website](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white), also created by [me](https://github.com/liOscar58).
+
+
