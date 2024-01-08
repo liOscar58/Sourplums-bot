@@ -37,6 +37,6 @@ cdk deploy
 
 
 ## 🔗 Links
-You can invite the bot here through its [website](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white), also created by [me](https://github.com/liOscar58).
+You can invite the bot here through its [website](https://sourplums-website-live.vercel.app/), also created by [me](https://github.com/liOscar58).
 
 
