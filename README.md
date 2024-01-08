@@ -1,10 +1,10 @@
 
-![Logo](https://sourplums-website-live.vercel.app/imgs/logo.png)
+![Logo](https://i.imgur.com/rQ06RyU.png)
 
 
 # SourPlums Discord Bot
 
-SourPlums is a command driven Discord bot written in Python. I makes use of a Docker Container for depolyment onto a AWS Lambda function for a 24/7 serveless bot.
+SourPlums is a command driven Discord bot written in Python. It makes use of a Docker Container for deployment onto a AWS Lambda function for a 24/7 serveless bot.
 
 Replace with your own Discord app and bot keys and tokens before building.
 
